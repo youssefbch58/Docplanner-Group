@@ -1,0 +1,32 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px   200px ;
+}
+.logo{
+    text-decoration: none;
+    color: aqua; 
+    text-transform: initial;
+    font-weight: 700px;
+    font-size: 1.8em;
+
+}
+.navigation a{
+color: aqua;
+text-transform: none;
+font-size: 1.1em;
+font-weight: 500px;
+padding-left: 30px;
+}
+.navigation a:hover{
+    color:darkgray;
+    
+}
